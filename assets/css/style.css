@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Orbitron&display=swap'); 
+  
+  #navBar{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/andrew-kliatskyi-jpu0gMXT9to-unsplash.jpg");
+}
+
+
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    color: #ea1538;
+    
+  }
+
+  .nav-item {
+    margin: 0px 15px;
+    color: #ea1538 !important;
+  }
+
+  .subHeading {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Anton', sans-serif;
+    border-bottom: 2px solid black;
+    width: 300px;
+    margin: 50px auto;
+  }
+
+  .jumbotronImage {
+    background-image: url("../images/snowEdit.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .jumbotron {
+    height: 100vh;
+    }
+
+  .profileImage {
+    width: 350px;
+    height: 350px;
+    border-radius: 80%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: black;
+    margin-bottom: 20px;
+  
+  }
+
+
+  .containerPicture {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .textJumbo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    margin-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+    
+  }
+  .navCTA {
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  
+}
+
+/* Typography CSS */
+
+p {
+  font-family: 'Jura', sans-serif;
+  
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Orbitron', sans-serif;
+}
+
